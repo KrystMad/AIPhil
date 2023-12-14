@@ -1,0 +1,2 @@
+# AIPhil
+AI Philosophy
