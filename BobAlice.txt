@@ -1,0 +1,27 @@
+% Prolog
+% Define some basic predicates
+person(alice).
+person(bob).
+person(carol).
+
+% Initial state: Alice is in the room, Bob is not
+in_room(alice).
+not_in_room(bob).
+
+:- discontiguous in_room/1.
+
+% Define rooms
+in_room(kitchen).
+in_room(office).
+in_room(hall).
+
+% Define the Enter action
+enter(X) :- person(X), not_in_room(X).
+
+% Frame Default: If someone enters the room, they are in the room afterward
+in_room(X) :- enter(X).
+
+% Query examples
+?- in_room(alice).   % This should succeed
+?- not_in_room(bob). % This should succeed
+?- in_room(bob).     % This should fail
