@@ -1,0 +1,7 @@
+Denett, "Cognitive Wheels: The Frame Problem of AI", 1984, Cambridge University Press
+
+Mitchell, M.,"Artificial Intelligence: A Guide for Thinking Humans", Ch8. „Rewards for Robots”, 2019, Farrar Straus and Giroux
+
+Morgenstern, L., "The Problem with Solutions to the Frame Problem", 1998, https://www.researchgate.net/publication/2657900, (access 2023-12-11)
+
+Shanahan, Murray, "The Frame Problem", The Stanford Encyclopedia of Philosophy (Spring 2016 Edition), Edward N. Zalta (ed.), URL = https://plato.stanford.edu/archives/spr2016/entries/frame-problem/
